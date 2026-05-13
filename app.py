@@ -2,10 +2,10 @@ import streamlit as st
 import tempfile, os
 from conversor_portaria import converter
 
-st.set_page_config(page_title="Conversor de Portaria - DOU", page_icon="📄")
+st.set_page_config(page_title="Conversor de Portaria - MTE", page_icon="📄")
 
-st.title("📄 Conversor de Portaria - DOU")
-st.write("Envie um arquivo **.docx** para gerar o HTML no padrão do Diário Oficial da União.")
+st.title("📄 Conversor de Portaria - MTE")
+st.write("Envie um arquivo **.docx** para gerar o HTML no padrão do MTE.")
 
 arquivo = st.file_uploader("Escolha o arquivo .docx", type=["docx"])
 
